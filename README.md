@@ -5,15 +5,18 @@ The advent of Artificial Intelligence and Machine Learning has unlocked a pletho
 ## Installation
 Follow these steps to install the software components on your local machine:
 - Clone The repository
-  Download the repository locally via ´git clone https://github.com/Jacopobracaloni/NTUSF-Not-The-Usual-Stupid-Fuzzer.git´
+  Download the repository locally via `git clone https://github.com/Jacopobracaloni/NTUSF-Not-The-Usual-Stupid-Fuzzer.git`
 
-- Navigate inside the repository via ´cd NTUSF-Not-The-Usual-Stupid-Fuzzer´
+- Navigate inside the repository via `cd NTUSF-Not-The-Usual-Stupid-Fuzzer`
 
-- Create a virtual environment in your project folder via ´python3 -m venv env´
+- Create a virtual environment in your project folder via `python3 -m venv env`
 
-- Activate the virtual environment by launching ´source env/binActivate´
+- Activate the virtual environment by launching `source env/binActivate`
 
-- Install the required python libraries via ´pip install requirements.txt´
+- Install the required python libraries via `pip install requirements.txt`
 
 ## Running
-Once all the components are installed, you can run the software via ´python3 ntusf.py´ and follow the instructions prompted to stdout.
+Once all the components are installed, you can run the software via `python3 ntusf.py` and follow the instructions prompted to stdout.
+
+## Disclaimer
+The usage of this tool should be ethical and comply with the permissions granted by the owner of the target web application. This tool was developed for educational purposes only and the owner is not responsible for any illegitamate use.
