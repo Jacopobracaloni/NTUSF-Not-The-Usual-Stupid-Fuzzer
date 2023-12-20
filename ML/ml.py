@@ -395,6 +395,7 @@ class URLClassifier:
                 by="Importance", ascending=False
             )
 
+            """
             # Step 4: Plot feature importances (Just the first 10)
             top_features = feature_importance_df.head(10)
             plt.figure(figsize=(10, 6))
@@ -404,6 +405,7 @@ class URLClassifier:
             plt.ylabel("Feature")
             plt.show()
             plt.savefig(directory + f"{self.base_url}_feature_importance.png")
+            """
         except Exception as e:
             self.logger.error(f"Error during feature importance plotting: {e}\n")
             raise
