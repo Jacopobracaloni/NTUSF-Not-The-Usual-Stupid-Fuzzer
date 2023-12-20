@@ -364,7 +364,7 @@ if __name__ == "__main__":
                         module_class, base_url, proxies, cookies, filtered_data, args
                     )
 
-            """logger.info("Merging together the results from the scan")
+            logger.info("Merging together the results from the scan")
             xss_df = pd.read_csv(DF + f"{base_url}_xss.csv")
             sql_df = pd.read_csv(DF + f"{base_url}_sqli.csv")
             csrf_df = pd.read_csv(DF + f"{base_url}_csrf.csv")
@@ -389,7 +389,7 @@ if __name__ == "__main__":
             )
             analysis.save_vulnerable_post_params(
                 IMG + f"{base_url}_vulnerable_post_params.png"
-            )"""
+            )
         logger.info("Shutting down the program. Ciao!")
         sys.exit(0)
     except KeyboardInterrupt:
