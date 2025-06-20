@@ -129,7 +129,7 @@ typing_extensions==4.8.0
 tzdata==2023.3
 ua-parser==0.18.0
 ujson==5.8.0
-urllib3==2.0.6
+urllib3==2.5.0
 user-agents==2.2.0
 virtualenv==20.24.5
 w3lib==2.1.2
