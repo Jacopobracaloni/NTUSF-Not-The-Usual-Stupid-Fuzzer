@@ -16,7 +16,7 @@ comm==0.1.4
 constantly==15.1.0
 contourpy==1.1.1
 coverage==7.3.2
-cryptography==41.0.4
+cryptography==46.0.5
 cssselect==1.2.0
 cycler==0.12.1
 debugpy==1.8.0
