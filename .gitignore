@@ -1,0 +1,36 @@
+# Virtual environments
+env/
+venv/
+.env
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# IDE / editor
+.claude/
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Scan results (generated at runtime)
+results/
+
+# Raw / intermediate ML data files (not needed to run the tool)
+# Keep: Training_data.csv (CSIC 2010 fallback) and Training_data_v2.csv (v2 dataset)
+ML/Data_Files/csic_database.csv
+ML/Data_Files/data_url.csv
+ML/Data_Files/parsed_csic.csv
+
+# Scrapy cache
+httpcache/
+.scrapy/
+
+# OS noise
+.DS_Store
+Thumbs.db
